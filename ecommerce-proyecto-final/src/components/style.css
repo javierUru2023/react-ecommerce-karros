@@ -1,0 +1,35 @@
+.titleNavBar {
+          font-family: 'Noto Sans', sans-serif;
+          font-weight: 600;
+          font-size: 2.5rem;
+          margin: 20px 0;
+        }
+.fontMenu {
+    font-family: 'Noto Sans', sans-serif;
+          font-weight: 100;
+          font-size: 1.2rem;
+          color: #005a5f;
+          margin: 20px 0;
+}
+.fontMenu .ant-menu-item:hover .ant-menu-item:active {
+  color: #d4d600;
+  background-color: #005a5f;
+  transition: all 0.3s ease;
+}
+
+/* Estilos para los hijos del submenú */
+.popupProductos .ant-menu-item {
+  color: #d4d600;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.popupProductos .ant-menu-item:hover {
+  color: #d4d600;
+  background-color: #005a5f;
+}
+
+.iconoCarrito {
+  color: #d4d600;
+}
+

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.notfound-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 48px; 
+  font-family: 'Noto Sans', sans-serif;
+  height: 100%; 
+}
+
+.notfound-card {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background: white; 
+}
+
+.notfound-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+
